@@ -1,0 +1,137 @@
+/* Struktur wrapper agar title dan form tersusun vertikal */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Body full height + gradient */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+    margin: 0;
+    padding: 40px 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  /* Judul APP LOGIN */
+  .app-title {
+    text-align: center;
+    font-size: 42px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    letter-spacing: 2px;
+    animation: fadeInDown 0.8s ease;
+  }
+  
+  /* Animasi masuk untuk judul */
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Container form login/register */
+  .container {
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.6s ease;
+  }
+  
+  /* Animasi muncul kontainer */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    } 
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    color: #444;
+    font-weight: 500;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: border 0.3s;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #66a6ff;
+    box-shadow: 0 0 5px rgba(102, 166, 255, 0.5);
+  }
+  
+  .buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #66a6ff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background: #558de8;
+    transform: scale(1.05);
+  }
+  
+  button[type="button"] {
+    background: #ff6b6b;
+  }
+  
+  button[type="button"]:hover {
+    background: #e65050;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
