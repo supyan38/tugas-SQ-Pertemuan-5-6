@@ -1,5 +1,3 @@
-# Creating the content for the testing report in markdown format
-testing_report_content = """
 # 📄 Functional Testing Report
 
 ## 📝 Nama Proyek
