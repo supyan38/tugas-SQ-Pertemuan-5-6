@@ -35,10 +35,6 @@ Laporan ini mencakup pengujian manual terhadap fungsionalitas utama dari aplikas
 
 Saat pengujian dilakukan, tidak ditemukan bug yang menyebabkan kegagalan fungsional. Validasi form bekerja baik dari sisi HTML dan JavaScript. 
 
-Namun, catatan penting:
-- Fungsi `cancelForm()` hanya mereset form, **tidak melakukan redirect**.
-  - **Solusi Usulan:** Tambahkan logika untuk mengarahkan kembali ke halaman awal jika diperlukan.
-
 ---
 
 ## 📁 Lokasi File
