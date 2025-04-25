@@ -71,9 +71,3 @@ Berdasarkan hasil pengujian, seluruh fitur fungsional dari sistem login dan regi
 - `script.js`
 """
 
-# Saving the content to a .md file
-file_path = '/mnt/data/Functional_Testing_Report.md'
-with open(file_path, 'w') as file:
-    file.write(testing_report_content)
-
-file_path
