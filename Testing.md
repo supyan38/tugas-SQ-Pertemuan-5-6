@@ -55,7 +55,7 @@ Sistem yang diuji adalah aplikasi web dengan dua halaman utama: halaman login da
 ## 💻 Deskripsi Kebutuhan Fungsional
 1. **Login**: Pengguna harus dapat masuk ke aplikasi menggunakan email dan password yang valid.
 2. **Registrasi**: Pengguna baru dapat mendaftar dengan menyediakan email, password, dan konfirmasi password yang sesuai.
-3. **Validasi Input**: Sistem harus memvalidasi input email dan password sesuai dengan kriteria yang ditetapkan, seperti panjang password minimal 6 karakter.
+3. **Validasi Input**: Sistem harus memvalidasi input email dan password sesuai dengan kriteria yang ditetapkan, seperti panjang password minimal 8 karakter.
 4. **Navigasi**: Pengguna harus dapat beralih antara halaman login dan registrasi dengan mudah.
 
 ---
